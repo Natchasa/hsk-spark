@@ -1,0 +1,812 @@
+[
+    {
+        "id": "hsk3_g1",
+        "csv_no": "131",
+        "group": "语素",
+        "category": "前缀",
+        "details": "第-、老-、小-",
+        "content": "",
+        "lesson": 1,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g2",
+        "csv_no": "132",
+        "group": "语素",
+        "category": "后缀",
+        "details": "-儿、-家、-们、-头、-子",
+        "content": "",
+        "lesson": 1,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g3",
+        "csv_no": "133",
+        "group": "词类",
+        "category": "动词",
+        "details": "能愿动词",
+        "content": "敢",
+        "lesson": 1,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g4",
+        "csv_no": "134",
+        "group": "词类",
+        "category": "动词",
+        "details": "能愿动词",
+        "content": "需要",
+        "lesson": 2,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g5",
+        "csv_no": "135",
+        "group": "词类",
+        "category": "动词",
+        "details": "离合词",
+        "content": "动宾式离合词：帮忙、点头、放假、干杯、见面、结婚、看病、睡觉、洗澡、理发、说话",
+        "lesson": 2,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g6",
+        "csv_no": "136",
+        "group": "词类",
+        "category": "动词",
+        "details": "离合词",
+        "content": "动补式离合词：打开、看见、离开、完成",
+        "lesson": 2,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g7",
+        "csv_no": "137",
+        "group": "词类",
+        "category": "代词",
+        "details": "疑问代词",
+        "content": "疑问代词的非疑问用法 \n（1）任指用法 \n①疑问代词+都……②疑问代词……疑问代词……（2）不定指用法",
+        "lesson": 3,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g8",
+        "csv_no": "138",
+        "group": "词类",
+        "category": "代词",
+        "details": "指示代词",
+        "content": "各、各位、各种、每、任何",
+        "lesson": 3,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g9",
+        "csv_no": "139",
+        "group": "词类",
+        "category": "量词",
+        "details": "名量词",
+        "content": "把、行、架、群、束、双、台、张、支、只、种",
+        "lesson": 3,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g10",
+        "csv_no": "140",
+        "group": "词类",
+        "category": "量词",
+        "details": "动量词",
+        "content": "顿、口、眼",
+        "lesson": 4,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g11",
+        "csv_no": "141",
+        "group": "词类",
+        "category": "量词",
+        "details": "量词重叠",
+        "content": "量词重叠：AA",
+        "lesson": 4,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g12",
+        "csv_no": "142",
+        "group": "词类",
+        "category": "副词",
+        "details": "程度副词",
+        "content": "比较、更加、还3、相当",
+        "lesson": 5,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g13",
+        "csv_no": "143",
+        "group": "词类",
+        "category": "副词",
+        "details": "范围、协同副词",
+        "content": "光、仅、仅仅、就3、至少",
+        "lesson": 5,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g14",
+        "csv_no": "144",
+        "group": "词类",
+        "category": "副词",
+        "details": "时间副词",
+        "content": "本来、才2、曾经、从来、赶紧、赶快、立刻、连忙、始终、已、早已",
+        "lesson": 5,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g15",
+        "csv_no": "145",
+        "group": "词类",
+        "category": "副词",
+        "details": "频率、重复副词",
+        "content": "通常、往往、总、总是",
+        "lesson": 6,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g16",
+        "csv_no": "146",
+        "group": "词类",
+        "category": "副词",
+        "details": "关联副词",
+        "content": "再2",
+        "lesson": 6,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g17",
+        "csv_no": "147",
+        "group": "词类",
+        "category": "副词",
+        "details": "方式副词",
+        "content": "互相、尽量、亲自、相互",
+        "lesson": 6,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g18",
+        "csv_no": "148",
+        "group": "词类",
+        "category": "副词",
+        "details": "情态副词",
+        "content": "大概、恐怕",
+        "lesson": 7,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g19",
+        "csv_no": "149",
+        "group": "词类",
+        "category": "副词",
+        "details": "语气副词",
+        "content": "白、并1、当然、到底、反正、根本、果然、简直、绝对、难道、其实、千万、确实、只好、终于",
+        "lesson": 7,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g20",
+        "csv_no": "150",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出时间、处所",
+        "content": "由1",
+        "lesson": 8,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g21",
+        "csv_no": "151",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出时间、处所",
+        "content": "自从",
+        "lesson": 8,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g22",
+        "csv_no": "152",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出方向、路径",
+        "content": "朝",
+        "lesson": 8,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g23",
+        "csv_no": "153",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出对象",
+        "content": "为2",
+        "lesson": 9,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g24",
+        "csv_no": "154",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出对象",
+        "content": "向2",
+        "lesson": 9,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g25",
+        "csv_no": "155",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出目的、原因",
+        "content": "由于1、因为",
+        "lesson": 9,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g26",
+        "csv_no": "156",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出目的、原因",
+        "content": "为了",
+        "lesson": 10,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g27",
+        "csv_no": "157",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出施事、受事",
+        "content": "把、被、叫、让",
+        "lesson": 10,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g28",
+        "csv_no": "158",
+        "group": "词类",
+        "category": "介词",
+        "details": "表示排除",
+        "content": "除了",
+        "lesson": 11,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g29",
+        "csv_no": "159",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出凭借、依据",
+        "content": "按、按照",
+        "lesson": 11,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g30",
+        "csv_no": "160",
+        "group": "词类",
+        "category": "连词",
+        "details": "连接分句或句子",
+        "content": "并且、不光、不仅、另外、要是、因此、由于2、只有",
+        "lesson": 11,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g31",
+        "csv_no": "161",
+        "group": "词类",
+        "category": "拟声词",
+        "details": "哈哈",
+        "content": "",
+        "lesson": 12,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g32",
+        "csv_no": "162",
+        "group": "短语",
+        "category": "结构类型",
+        "details": "其他结构类型",
+        "content": "其他结构类型2：（1）介宾短语（2）方位短语（3）兼语短语（4）同位短语",
+        "lesson": 12,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g33",
+        "csv_no": "163",
+        "group": "短语",
+        "category": "结构类型",
+        "details": "数量重叠：数词+量词+数词+量词",
+        "content": "",
+        "lesson": 12,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g34",
+        "csv_no": "164",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "四字格",
+        "content": "不A不B",
+        "lesson": 13,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g35",
+        "csv_no": "165",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "看起来",
+        "lesson": 13,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g36",
+        "csv_no": "166",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "看上去",
+        "lesson": 13,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g37",
+        "csv_no": "167",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "有的是",
+        "lesson": 14,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g38",
+        "csv_no": "168",
+        "group": "固定格式",
+        "category": "除了……（以外），……还/也/都……",
+        "details": "",
+        "content": "",
+        "lesson": 14,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g39",
+        "csv_no": "169",
+        "group": "固定格式",
+        "category": "从……起",
+        "details": "",
+        "content": "",
+        "lesson": 15,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g40",
+        "csv_no": "170",
+        "group": "固定格式",
+        "category": "对……来说",
+        "details": "",
+        "content": "",
+        "lesson": 15,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g41",
+        "csv_no": "171",
+        "group": "固定格式",
+        "category": "一……也/都+不/没……",
+        "details": "",
+        "content": "",
+        "lesson": 15,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g42",
+        "csv_no": "172",
+        "group": "固定格式",
+        "category": "越……越……",
+        "details": "",
+        "content": "",
+        "lesson": 16,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g43",
+        "csv_no": "173",
+        "group": "句子成分",
+        "category": "主语",
+        "details": "动词或动词性短语、形容词或形容词性短语作主语",
+        "content": "",
+        "lesson": 16,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g44",
+        "csv_no": "174",
+        "group": "句子成分",
+        "category": "宾语",
+        "details": "动词或动词性短语、形容词或形容词性短语和主谓短语作宾语",
+        "content": "",
+        "lesson": 16,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g45",
+        "csv_no": "175",
+        "group": "句子成分",
+        "category": "定语",
+        "details": "动词或动词性短语、主谓短语作定语",
+        "content": "",
+        "lesson": 17,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g46",
+        "csv_no": "176",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "结果补语",
+        "content": "结果补语2：动词+到/住/走",
+        "lesson": 17,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g47",
+        "csv_no": "177",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "趋向补语",
+        "content": "趋向补语2 \n复合趋向补语的趋向意义用法：动词+出来/出去/过来/过去/回来/回去/进来/进去/ 起来/上来/上去/下来/下去",
+        "lesson": 18,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g48",
+        "csv_no": "178",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "可能补语",
+        "content": "可能补语1：动词+得/不+动词/形容词；动词+得/不+了",
+        "lesson": 18,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g49",
+        "csv_no": "179",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "程度补语",
+        "content": "程度补语1：形容词/心理动词+得很/极了/死了",
+        "lesson": 18,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g50",
+        "csv_no": "180",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "数量补语",
+        "content": "数量补语 3（动词+动量补语）：宾语和动量补语共现",
+        "lesson": 19,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g51",
+        "csv_no": "181",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "数量补语",
+        "content": "数量补语4（动词+时量补语）：表示动作持续的时间",
+        "lesson": 19,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g52",
+        "csv_no": "182",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "数量补语",
+        "content": "数量补语5（动词+时量补语）：表示动作结束后到某个时间点的间隔时间",
+        "lesson": 19,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g53",
+        "csv_no": "183",
+        "group": "句子的类型",
+        "category": "句型",
+        "details": "单句",
+        "content": "主谓句4：主谓谓语句",
+        "lesson": 20,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g54",
+        "csv_no": "184",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "“把”字句",
+        "content": "“把”字句1：表处置 \n（1）主语+把+宾语+动词+在/到+处所（2）主语+把+宾语1 +动词（+给）+宾语2（3）主语+把+宾语+动词+结果补语/趋向补语/状态补语",
+        "lesson": 20,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g55",
+        "csv_no": "185",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "被动句",
+        "content": "被动句1：主语+被/叫/让+宾语+动词+其他成分",
+        "lesson": 21,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g56",
+        "csv_no": "186",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "连动句",
+        "content": "连动句2： \n（1）前一动作是后一动作的方式（2）后一动作是前一动作的目的",
+        "lesson": 21,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g57",
+        "csv_no": "187",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "兼语句",
+        "content": "兼语句1 \n表使令：主语+叫/派/请/让……+宾语1 +动词+宾语2",
+        "lesson": 21,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g58",
+        "csv_no": "188",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "比较句",
+        "content": "比较句4： \n（1）A比B +动词+得+形容词 \n（2）A不比B +形容词 \n（3）A +动词+得+比+ B +形容词 \n（4）A比B +多/少/早/晚+动词+数量短语",
+        "lesson": 22,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g59",
+        "csv_no": "189",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "重动句",
+        "content": "主语+动词+宾语+动词+补语",
+        "lesson": 22,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g60",
+        "csv_no": "190",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "（也）……，也……",
+        "lesson": 22,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g61",
+        "csv_no": "191",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "一会儿……，一会儿……",
+        "lesson": 23,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g62",
+        "csv_no": "192",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "一方面……，另一方面……",
+        "lesson": 23,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g63",
+        "csv_no": "193",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "又……，又……",
+        "lesson": 23,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g64",
+        "csv_no": "194",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "承接复句",
+        "content": "首先……，然后……",
+        "lesson": 24,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g65",
+        "csv_no": "195",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "递进复句",
+        "content": "……，并且……",
+        "lesson": 24,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g66",
+        "csv_no": "196",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "递进复句",
+        "content": "不仅/不光……，还/而且……",
+        "lesson": 25,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g67",
+        "csv_no": "197",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "选择复句",
+        "content": "不是……，就是……",
+        "lesson": 25,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g68",
+        "csv_no": "198",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "转折复句",
+        "content": "……X是X，就是/不过……",
+        "lesson": 25,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g69",
+        "csv_no": "199",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "假设复句",
+        "content": "要是……，就……",
+        "lesson": 26,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g70",
+        "csv_no": "200",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "条件复句",
+        "content": "只有……，才……",
+        "lesson": 26,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g71",
+        "csv_no": "201",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "因果复句",
+        "content": "（由于）……，所以/因此……",
+        "lesson": 26,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g72",
+        "csv_no": "202",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "目的复句",
+        "content": "为了……，……",
+        "lesson": 27,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g73",
+        "csv_no": "203",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "紧缩复句",
+        "content": "……了……（就）……",
+        "lesson": 27,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g74",
+        "csv_no": "204",
+        "group": "特殊表达法",
+        "category": "数的表示法",
+        "details": "概数表示法2： \n（1）用“大概、大约、几”表示概数（2）相邻数词连用表示概数（3）用“左右、前后”表示概数",
+        "content": "",
+        "lesson": 28,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g75",
+        "csv_no": "205",
+        "group": "强调的方法",
+        "category": "用“一点儿也不……”表示强调",
+        "details": "",
+        "content": "",
+        "lesson": 28,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g76",
+        "csv_no": "206",
+        "group": "强调的方法",
+        "category": "用反问句表示强调 \n反问句1：不是……吗？/难道……吗？",
+        "details": "",
+        "content": "",
+        "lesson": 28,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g77",
+        "csv_no": "207",
+        "group": "强调的方法",
+        "category": "用“是”表示强调",
+        "details": "",
+        "content": "",
+        "lesson": 29,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g78",
+        "csv_no": "208",
+        "group": "提问的方法",
+        "category": "用疑问语调表示疑问",
+        "details": "",
+        "content": "",
+        "lesson": 29,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g79",
+        "csv_no": "209",
+        "group": "口语格式",
+        "category": "都……了",
+        "details": "",
+        "content": "",
+        "lesson": 29,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g80",
+        "csv_no": "210",
+        "group": "口语格式",
+        "category": "X就X（点儿）吧",
+        "details": "",
+        "content": "",
+        "lesson": 30,
+        "hsk": 3
+    },
+    {
+        "id": "hsk3_g81",
+        "csv_no": "211",
+        "group": "口语格式",
+        "category": "X什么（啊）",
+        "details": "",
+        "content": "",
+        "lesson": 30,
+        "hsk": 3
+    }
+]

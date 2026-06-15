@@ -1,0 +1,83 @@
+:root {
+    /* Color Palette - Dark Mode (Default) with Premium Turquoise Theme */
+    --bg-primary: #070f14;
+    --bg-secondary: #0d1b22;
+    --bg-tertiary: #162c38;
+    --bg-glass: rgba(13, 27, 34, 0.65);
+    --border-glass: rgba(0, 242, 254, 0.08);
+    --border-color: #1a3543;
+    
+    --text-primary: #f1f7fa;
+    --text-secondary: #8da4b0;
+    --text-muted: #5e7784;
+    
+    /* Turquoise Accent Colors */
+    --accent-red: #00f2fe; /* Mapped from --accent-red to keep class compatibility */
+    --accent-red-hover: #00ced1;
+    --accent-red-glow: rgba(0, 242, 254, 0.35);
+    
+    --accent-gold: #34d399; /* Emerald/Mint Green secondary accent */
+    --accent-gold-hover: #10b981;
+    --accent-gold-glow: rgba(52, 211, 153, 0.25);
+    
+    --success: #10b981;
+    --success-glow: rgba(16, 185, 129, 0.2);
+    --warning: #f59e0b;
+    --error: #f43f5e;
+    --info: #06b6d4;
+    
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 15px var(--accent-red-glow);
+    
+    /* Layout & Sizing */
+    --sidebar-width: 190px;
+    --header-height: 48px;
+    --bottom-nav-height: 48px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-full: 9999px;
+    
+    /* Transition speeds */
+    --speed-fast: 0.15s;
+    --speed-normal: 0.25s;
+    --speed-slow: 0.4s;
+    
+    --glass-blur: 16px;
+}
+
+[data-theme="light"] {
+    /* Color Palette - Light Mode with Clean Turquoise/White Contrast */
+    --bg-primary: #f0f6f6;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #e1ebeb;
+    --bg-glass: rgba(255, 255, 255, 0.8);
+    --border-glass: rgba(0, 128, 128, 0.06);
+    --border-color: #cfdfdf;
+    
+    --text-primary: #0f1f26;
+    --text-secondary: #425f6b;
+    --text-muted: #78929e;
+    
+    /* Clean Teal/Turquoise accents */
+    --accent-red: #008080; /* Mapped from --accent-red to keep class compatibility */
+    --accent-red-hover: #006666;
+    --accent-red-glow: rgba(0, 128, 128, 0.15);
+    
+    --accent-gold: #059669;
+    --accent-gold-hover: #047857;
+    --accent-gold-glow: rgba(5, 150, 105, 0.15);
+    
+    --success: #059669;
+    --success-glow: rgba(5, 150, 105, 0.1);
+    --warning: #ea580c;
+    --error: #e11d48;
+    --info: #0891b2;
+    
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+    --shadow-glow: 0 0 12px rgba(0, 128, 128, 0.1);
+}

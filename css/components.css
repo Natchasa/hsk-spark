@@ -1,0 +1,205 @@
+/* Common UI Components */
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px 12px;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all var(--speed-fast) ease;
+    text-align: center;
+    user-select: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-red), var(--info));
+    color: #0a1a22;
+    box-shadow: 0 4px 14px var(--accent-red-glow);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--accent-red-hover), var(--info));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px var(--accent-red-glow);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-secondary {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--border-color);
+    transform: translateY(-2px);
+}
+
+.btn-gold {
+    background: linear-gradient(135deg, var(--accent-gold), var(--success));
+    color: #0b0c16;
+    box-shadow: 0 4px 14px var(--accent-gold-glow);
+}
+
+.btn-gold:hover {
+    background: linear-gradient(135deg, var(--accent-gold-hover), var(--success));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px var(--accent-gold-glow);
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Glass Card */
+.card {
+    border-radius: var(--radius-lg);
+    padding: 14px;
+    background: var(--bg-glass);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--border-glass);
+    box-shadow: var(--shadow-md);
+    transition: transform var(--speed-normal), box-shadow var(--speed-normal), border-color var(--speed-normal);
+}
+
+.card:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Badges */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: var(--radius-full);
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.badge-red {
+    background-color: var(--accent-red-glow);
+    color: var(--accent-red);
+    border: 1px solid var(--border-color);
+}
+
+.badge-gold {
+    background-color: var(--accent-gold-glow);
+    color: var(--accent-gold);
+    border: 1px solid var(--border-color);
+}
+
+.badge-success {
+    background-color: var(--success-glow);
+    color: var(--success);
+    border: 1px solid var(--border-color);
+}
+
+.badge-info {
+    background-color: rgba(6, 182, 212, 0.15);
+    color: var(--info);
+    border: 1px solid var(--border-color);
+}
+
+.badge-done {
+    background-color: var(--success-glow);
+    color: var(--success);
+    border: 1px solid var(--success);
+    font-weight: 700;
+}
+
+.badge-muted {
+    background-color: var(--bg-tertiary);
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+}
+
+/* Search Bar Component */
+.search-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 8px 12px 8px 36px;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    transition: all var(--speed-fast);
+}
+
+.search-input:focus {
+    border-color: var(--accent-red);
+    box-shadow: 0 0 0 2px var(--accent-red-glow);
+}
+
+.search-wrapper i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+/* Modals */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    box-shadow: var(--shadow-lg);
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color var(--speed-fast);
+}
+
+.modal-close:hover {
+    color: var(--text-primary);
+}

@@ -1,0 +1,316 @@
+/* Study Views (Vocabulary & Grammar) */
+
+/* Radical Chips Filter */
+.radical-filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.radical-chip {
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: all var(--speed-fast);
+}
+
+.radical-chip:hover {
+    border-color: var(--text-muted);
+    color: var(--text-primary);
+}
+
+.radical-chip.active {
+    background-color: var(--accent-red);
+    border-color: transparent;
+    color: #0a1a22;
+    font-weight: 600;
+}
+
+/* Flashcard Container & Flip System */
+.flashcard-view-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.flashcard-perspective {
+    perspective: 1000px;
+    width: 100%;
+    height: 220px;
+}
+
+.flashcard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform var(--speed-slow) cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-glass);
+}
+
+/* Front Face */
+.card-front {
+    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
+}
+
+.card-front .zh-word {
+    font-size: 2.4rem;
+    color: var(--text-gradient-red);
+    margin-bottom: 8px;
+}
+
+.card-front .pos-tag {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.card-front .hint-text {
+    position: absolute;
+    bottom: 16px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Back Face */
+.card-back {
+    background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary));
+    transform: rotateY(180deg);
+    justify-content: space-between;
+}
+
+.card-back-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-back-word {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card-back-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.card-meaning {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+}
+
+.card-example {
+    font-size: 0.95rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 8px;
+}
+
+.card-example-zh {
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+}
+
+.card-example-py {
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+}
+
+.card-example-th {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Flashcard Buttons & Controls */
+.flashcard-nav {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-circle-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--speed-fast);
+}
+
+.nav-circle-btn:hover {
+    background-color: var(--bg-tertiary);
+    color: var(--accent-red);
+    border-color: var(--accent-red);
+}
+
+.card-counter {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.flashcard-action-bar {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.flashcard-action-bar button {
+    flex: 1;
+}
+
+/* Vocabulary Dictionary Table View */
+.table-view-controls {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.vocab-table-container {
+    overflow-x: auto;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+}
+
+.vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.vocab-table th,
+.vocab-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.vocab-table th {
+    background-color: var(--bg-secondary);
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.vocab-table tr {
+    background-color: var(--bg-glass);
+    transition: background-color var(--speed-fast);
+}
+
+.vocab-table tr:hover {
+    background-color: var(--bg-tertiary);
+}
+
+.vocab-table tr:last-child td {
+    border-bottom: none;
+}
+
+.table-zh-cell {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.table-speaker-icon {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color var(--speed-fast);
+}
+
+.table-speaker-icon:hover {
+    color: var(--accent-red);
+}
+
+/* Grammar Lesson Cards */
+.grammar-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.grammar-card {
+    border-left: 5px solid var(--accent-red);
+}
+
+.grammar-formula-box {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 6px 10px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 8px 0;
+    display: inline-block;
+    letter-spacing: 0.02em;
+}
+
+.grammar-formula-box .formula-zh {
+    color: var(--accent-red);
+}
+
+.grammar-examples-list {
+    margin-top: 10px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 10px;
+}
+
+.grammar-example-item {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-left: 2px solid var(--text-muted);
+}
+
+.grammar-example-item:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .table-view-controls {
+        flex-direction: column;
+    }
+}

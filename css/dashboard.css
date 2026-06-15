@@ -1,0 +1,322 @@
+/* Dashboard View Layout */
+
+.dashboard-hero {
+    background: linear-gradient(135deg, rgba(0, 242, 254, 0.08), rgba(52, 211, 153, 0.03));
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    padding: 14px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.dashboard-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, var(--accent-red-glow) 0%, transparent 70%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.hero-desc {
+    color: var(--text-secondary);
+    max-width: 600px;
+}
+
+/* Stat Grid */
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat-info h4 {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+}
+
+.stat-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Circular Progress Rings */
+.progress-ring-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring-circle-bg {
+    fill: none;
+    stroke: var(--bg-tertiary);
+    stroke-width: 6;
+}
+
+.progress-ring-circle {
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.35s;
+    transform-origin: 50% 50%;
+}
+
+.progress-ring-circle.vocab {
+    stroke: var(--accent-red);
+}
+
+.progress-ring-circle.grammar {
+    stroke: var(--accent-gold);
+}
+
+.progress-ring-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Study Planner Grid */
+.planner-section {
+    margin-bottom: 20px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Timeline/Weeks Navigation */
+.timeline-container {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.timeline-item {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-secondary);
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all var(--speed-fast);
+    scroll-snap-align: start;
+}
+
+.timeline-item:hover {
+    border-color: var(--text-muted);
+    color: var(--text-primary);
+}
+
+.timeline-item.active {
+    background: linear-gradient(135deg, var(--accent-red), #00ced1);
+    border-color: transparent;
+    color: #0a1a22;
+    box-shadow: 0 4px 10px var(--accent-red-glow);
+}
+
+.timeline-item.completed {
+    border-color: var(--success);
+    color: var(--success);
+    background-color: rgba(16, 185, 129, 0.05);
+}
+
+/* Day Cards Grid */
+.day-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 10px;
+}
+
+.day-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 140px;
+}
+
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.day-title {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.day-tasks {
+    margin-bottom: 14px;
+    flex-grow: 1;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+}
+
+/* Custom checkbox label wrapper */
+.task-check-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* Hide native checkbox */
+.task-checkbox {
+    display: none;
+}
+
+/* Visual checkbox box */
+.task-check-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 2px solid var(--border-color);
+    background: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.task-check-box::after {
+    content: '';
+    width: 5px;
+    height: 9px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg) translate(-1px, -1px);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+/* Checked state */
+.task-checkbox:checked + .task-check-box {
+    background: var(--success);
+    border-color: var(--success);
+}
+
+.task-checkbox:checked + .task-check-box::after {
+    opacity: 1;
+}
+
+/* Hover effect on checkbox */
+.task-check-label:hover .task-check-box {
+    border-color: var(--success);
+}
+
+/* Task label (clickable to navigate) */
+.task-label {
+    cursor: pointer;
+    flex: 1;
+    transition: color 0.15s;
+}
+
+.task-label:hover {
+    color: var(--text-primary);
+    text-decoration: underline;
+}
+
+/* Done state */
+.task-item.done .task-label {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}
+
+/* Recommendation banner */
+.recommendation-card {
+    background: linear-gradient(135deg, var(--accent-gold-glow), rgba(0, 242, 254, 0.04));
+    border-left: 4px solid var(--accent-gold);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rec-icon {
+    font-size: 1.6rem;
+    color: var(--accent-gold);
+}
+
+.rec-content h4 {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.rec-content p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .dashboard-hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .timeline-container {
+        padding-bottom: 10px;
+    }
+}

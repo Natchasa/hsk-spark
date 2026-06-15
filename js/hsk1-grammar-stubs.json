@@ -1,0 +1,482 @@
+[
+    {
+        "id": "hsk1_g1",
+        "csv_no": "1",
+        "group": "词类",
+        "category": "名词",
+        "details": "方位名词",
+        "content": "上、下、里、外、前、后、左、右、东、南、西、北；上边、下边、 里边、外边、前边、后边、左边、右边、东边、南边、西边、北边",
+        "lesson": 1,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g2",
+        "csv_no": "2",
+        "group": "词类",
+        "category": "动词",
+        "details": "能愿动词",
+        "content": "会、能",
+        "lesson": 1,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g3",
+        "csv_no": "3",
+        "group": "词类",
+        "category": "动词",
+        "details": "能愿动词",
+        "content": "想、要",
+        "lesson": 2,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g4",
+        "csv_no": "4",
+        "group": "词类",
+        "category": "代词",
+        "details": "疑问代词",
+        "content": "多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么",
+        "lesson": 2,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g5",
+        "csv_no": "5",
+        "group": "词类",
+        "category": "代词",
+        "details": "人称代词",
+        "content": "我、你、您、他、她、我们、你们、他们、她们",
+        "lesson": 3,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g6",
+        "csv_no": "6",
+        "group": "词类",
+        "category": "代词",
+        "details": "指示代词",
+        "content": "这、那、这儿、那儿、这里、那里、这些、那些、别的、有的",
+        "lesson": 3,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g7",
+        "csv_no": "7",
+        "group": "词类",
+        "category": "数词",
+        "details": "一、二/两、三、四、五、六、七、八、九、零；十、百；半",
+        "content": "",
+        "lesson": 4,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g8",
+        "csv_no": "8",
+        "group": "词类",
+        "category": "量词",
+        "details": "名量词",
+        "content": "杯、本、个、家、间、口、块、页",
+        "lesson": 4,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g9",
+        "csv_no": "9",
+        "group": "词类",
+        "category": "副词",
+        "details": "程度副词",
+        "content": "非常、很、太、真、最",
+        "lesson": 5,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g10",
+        "csv_no": "10",
+        "group": "词类",
+        "category": "副词",
+        "details": "范围、协同副词",
+        "content": "都1、一块儿、一起",
+        "lesson": 5,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g11",
+        "csv_no": "11",
+        "group": "词类",
+        "category": "副词",
+        "details": "时间副词",
+        "content": "马上、先、有时、在、正、正在",
+        "lesson": 6,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g12",
+        "csv_no": "12",
+        "group": "词类",
+        "category": "副词",
+        "details": "频率、重复副词",
+        "content": "常、常常、再1",
+        "lesson": 6,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g13",
+        "csv_no": "13",
+        "group": "词类",
+        "category": "副词",
+        "details": "关联副词",
+        "content": "还1、也",
+        "lesson": 7,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g14",
+        "csv_no": "14",
+        "group": "词类",
+        "category": "副词",
+        "details": "否定副词",
+        "content": "别、不、没、没有",
+        "lesson": 7,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g15",
+        "csv_no": "15",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出时间、处所",
+        "content": "从1",
+        "lesson": 8,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g16",
+        "csv_no": "16",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出时间、处所",
+        "content": "在",
+        "lesson": 8,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g17",
+        "csv_no": "17",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出对象",
+        "content": "跟1、和1",
+        "lesson": 9,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g18",
+        "csv_no": "18",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出对象",
+        "content": "比",
+        "lesson": 9,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g19",
+        "csv_no": "19",
+        "group": "词类",
+        "category": "连词",
+        "details": "连接词或词组",
+        "content": "跟2、还是、和2",
+        "lesson": 10,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g20",
+        "csv_no": "20",
+        "group": "词类",
+        "category": "助词",
+        "details": "结构助词",
+        "content": "的1、地",
+        "lesson": 10,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g21",
+        "csv_no": "21",
+        "group": "词类",
+        "category": "助词",
+        "details": "动态助词",
+        "content": "了1",
+        "lesson": 11,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g22",
+        "csv_no": "22",
+        "group": "词类",
+        "category": "助词",
+        "details": "语气助词",
+        "content": "吧1、了2、吗、呢",
+        "lesson": 11,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g23",
+        "csv_no": "23",
+        "group": "短语",
+        "category": "结构类型",
+        "details": "其他结构类型",
+        "content": "数量短语",
+        "lesson": 12,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g24",
+        "csv_no": "24",
+        "group": "句子成分",
+        "category": "主语",
+        "details": "名词、代词或名词性短语作主语",
+        "content": "",
+        "lesson": 12,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g25",
+        "csv_no": "25",
+        "group": "句子成分",
+        "category": "谓语",
+        "details": "动词或动词性短语、形容词或形容词性短语作谓语",
+        "content": "",
+        "lesson": 13,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g26",
+        "csv_no": "26",
+        "group": "句子成分",
+        "category": "宾语",
+        "details": "名词、代词或名词性短语作宾语",
+        "content": "",
+        "lesson": 13,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g27",
+        "csv_no": "27",
+        "group": "句子成分",
+        "category": "定语",
+        "details": "名词性词语、形容词性词语、数量短语作定语",
+        "content": "",
+        "lesson": 14,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g28",
+        "csv_no": "28",
+        "group": "句子成分",
+        "category": "状语",
+        "details": "副词、形容词作状语； \n表示时间、处所的词语作状语",
+        "content": "",
+        "lesson": 14,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g29",
+        "csv_no": "29",
+        "group": "句子的类型",
+        "category": "句型",
+        "details": "单句",
+        "content": "主谓句1：动词谓语句",
+        "lesson": 15,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g30",
+        "csv_no": "30",
+        "group": "句子的类型",
+        "category": "句型",
+        "details": "单句",
+        "content": "主谓句2：形容词谓语句",
+        "lesson": 15,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g31",
+        "csv_no": "31",
+        "group": "句子的类型",
+        "category": "句型",
+        "details": "单句",
+        "content": "非主谓句",
+        "lesson": 16,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g32",
+        "csv_no": "32",
+        "group": "句子的类型",
+        "category": "句类",
+        "details": "陈述句",
+        "content": "陈述句",
+        "lesson": 16,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g33",
+        "csv_no": "33",
+        "group": "句子的类型",
+        "category": "句类",
+        "details": "疑问句",
+        "content": "（1）是非问句（2）特指问句（3）选择问句（4）正反问句",
+        "lesson": 17,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g34",
+        "csv_no": "34",
+        "group": "句子的类型",
+        "category": "句类",
+        "details": "祈使句",
+        "content": "祈使句",
+        "lesson": 17,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g35",
+        "csv_no": "35",
+        "group": "句子的类型",
+        "category": "句类",
+        "details": "感叹句",
+        "content": "感叹句",
+        "lesson": 18,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g36",
+        "csv_no": "36",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "“是”字句",
+        "content": "（1）表示等同或类属；（2）表示说明或特征；（3）表示存在",
+        "lesson": 18,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g37",
+        "csv_no": "37",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "“有”字句",
+        "content": "“有”字句1：（1）表示领有；（2）表示存在",
+        "lesson": 19,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g38",
+        "csv_no": "38",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "比较句",
+        "content": "比较句1：（1）A比B +形容词（2）A没有B +形容词",
+        "lesson": 19,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g39",
+        "csv_no": "39",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "（1）不用关联词语 \n（2）用关联词语：一边……，一边……；……，也……",
+        "lesson": 20,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g40",
+        "csv_no": "40",
+        "group": "动作的态",
+        "category": "动作的态",
+        "details": "变化态",
+        "content": "用语气助词“了2”表示",
+        "lesson": 20,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g41",
+        "csv_no": "41",
+        "group": "动作的态",
+        "category": "动作的态",
+        "details": "完成态",
+        "content": "用动态助词“了1”表示",
+        "lesson": 21,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g42",
+        "csv_no": "42",
+        "group": "动作的态",
+        "category": "动作的态",
+        "details": "进行态",
+        "content": "（1）……在/正在+动词 \n（2）……在/正/正在+动词……+呢 \n（3）……呢",
+        "lesson": 21,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g43",
+        "csv_no": "43",
+        "group": "特殊表达法",
+        "category": "数的表示法",
+        "details": "钱数表示法",
+        "content": "",
+        "lesson": 22,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g44",
+        "csv_no": "44",
+        "group": "特殊表达法",
+        "category": "时间表示法",
+        "details": "（1）年、月、日、星期表示法（2）钟点表示法",
+        "content": "",
+        "lesson": 22,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g45",
+        "csv_no": "45",
+        "group": "提问的方法",
+        "category": "用“吗”提问",
+        "details": "",
+        "content": "",
+        "lesson": 23,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g46",
+        "csv_no": "46",
+        "group": "提问的方法",
+        "category": "用“多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么”提问",
+        "details": "",
+        "content": "",
+        "lesson": 23,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g47",
+        "csv_no": "47",
+        "group": "提问的方法",
+        "category": "用“还是”提问",
+        "details": "",
+        "content": "",
+        "lesson": 24,
+        "hsk": 1
+    },
+    {
+        "id": "hsk1_g48",
+        "csv_no": "48",
+        "group": "提问的方法",
+        "category": "用正反疑问形式提问",
+        "details": "",
+        "content": "",
+        "lesson": 24,
+        "hsk": 1
+    }
+]

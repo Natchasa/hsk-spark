@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSK Spark - เก่งจีนในระบบใหม่ HSK 3.0</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Sans+Thai:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Modules -->
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/study.css">
+    <link rel="stylesheet" href="css/exercises.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Sidebar Navigation (Desktop Only) -->
+        <aside id="sidebar">
+            <div class="sidebar-brand">
+                <span class="brand-emoji">🀄</span>
+                <span class="brand-text">HSK Spark</span>
+            </div>
+            <nav class="sidebar-nav">
+                <button class="nav-btn active" data-view="dashboard">
+                    <i class="fa-solid fa-chart-line"></i> <span>Dashboard</span>
+                </button>
+                <button class="nav-btn" data-view="vocabulary">
+                    <i class="fa-solid fa-book-open"></i> <span>คลังคำศัพท์</span>
+                </button>
+                <button class="nav-btn" data-view="grammar">
+                    <i class="fa-solid fa-scroll"></i> <span>หลักไวยากรณ์</span>
+                </button>
+                <button class="nav-btn" data-view="exercises">
+                    <i class="fa-solid fa-pen-to-square"></i> <span>แบบฝึกหัด</span>
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="theme-toggle-desktop" class="theme-btn">
+                    <i class="fa-solid fa-moon"></i> <span>โหมดมืด</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <div id="main-area">
+            <!-- Top Header -->
+            <header id="top-header">
+                <div class="mobile-brand-wrapper">
+                    <span class="brand-emoji">🀄</span>
+                    <span class="mobile-brand-text">HSK Spark</span>
+                </div>
+                
+                <div class="header-controls">
+                    <!-- Global HSK Level Selector -->
+                    <div class="hsk-selector-wrapper">
+                        <select id="global-hsk-select" class="hsk-select">
+                            <option value="1">HSK Level 1</option>
+                            <option value="2">HSK Level 2</option>
+                            <option value="3">HSK Level 3</option>
+                            <option value="4">HSK Level 4</option>
+                            <option value="5">HSK Level 5</option>
+                            <option value="6">HSK Level 6</option>
+                        </select>
+                    </div>
+
+                    <!-- Global Pinyin Toggle Switch -->
+                    <button id="pinyin-toggle" class="control-btn toggle-active" title="เปิด/ปิดพินอิน">
+                        <i class="fa-solid fa-eye"></i> <span>พินอิน</span>
+                    </button>
+
+                    <!-- Theme Toggle for Mobile -->
+                    <button id="theme-toggle-mobile" class="control-btn mobile-only" title="สลับธีม">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dynamic Body Target -->
+            <main id="app-body">
+                <!-- Views will render here -->
+                <div class="loading-spinner-wrapper">
+                    <div class="spinner"></div>
+                    <p>กำลังเตรียมความพร้อมบทเรียน HSK...</p>
+                </div>
+            </main>
+        </div>
+
+        <!-- Bottom Navigation (Mobile Only) -->
+        <nav id="bottom-nav" class="mobile-only">
+            <button class="bottom-nav-btn active" data-view="dashboard">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>หน้าหลัก</span>
+            </button>
+            <button class="bottom-nav-btn" data-view="vocabulary">
+                <i class="fa-solid fa-book-open"></i>
+                <span>คำศัพท์</span>
+            </button>
+            <button class="bottom-nav-btn" data-view="grammar">
+                <i class="fa-solid fa-scroll"></i>
+                <span>ไวยากรณ์</span>
+            </button>
+            <button class="bottom-nav-btn" data-view="exercises">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <span>ฝึกฝน</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- HSK 3.0 Vocabulary & Grammar Data Modules -->
+    <script src="js/data/curriculum.js"></script>
+    <script src="js/data/hsk1-vocab.js"></script>
+    <script src="js/data/hsk1-grammar.js"></script>
+    <script src="js/data/hsk2-vocab.js"></script>
+    <script src="js/data/hsk2-grammar.js"></script>
+    <script src="js/data/hsk3-vocab.js"></script>
+    <script src="js/data/hsk3-grammar.js"></script>
+    <script src="js/data/hsk4-vocab.js"></script>
+    <script src="js/data/hsk4-grammar.js"></script>
+    <script src="js/data/hsk5-vocab.js"></script>
+    <script src="js/data/hsk5-grammar.js"></script>
+    <script src="js/data/hsk6-vocab.js"></script>
+    <script src="js/data/hsk6-grammar.js"></script>
+
+    <!-- App Engine JavaScript Modules -->
+    <script src="js/utils.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/tts.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/vocabulary.js"></script>
+    <script src="js/grammar.js"></script>
+    <script src="js/exercises.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

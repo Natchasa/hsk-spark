@@ -1,0 +1,135 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans Thai', 'Noto Sans SC', sans-serif;
+    font-size: 13px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.4;
+    overflow-x: hidden;
+    transition: background-color var(--speed-normal), color var(--speed-normal);
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* Global Utility Classes */
+.glass {
+    background: var(--bg-glass);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--border-glass);
+}
+
+.text-gradient-red {
+    background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gold {
+    background: linear-gradient(135deg, var(--accent-gold), #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hide {
+    display: none !important;
+}
+
+/* Chinese character highlighting styles */
+.zh-char {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 500;
+}
+
+.pinyin-text {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    display: block;
+    margin-top: 2px;
+    transition: filter var(--speed-normal), opacity var(--speed-normal);
+}
+
+/* Pinyin blur status */
+.pinyin-masked .pinyin-text {
+    filter: blur(5px);
+    opacity: 0.3;
+    user-select: none;
+}
+
+.pinyin-masked .pinyin-text:hover,
+.pinyin-masked .pinyin-text.revealed {
+    filter: blur(0) !important;
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+/* Center loading spinner */
+.loading-spinner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    gap: 15px;
+    color: var(--text-secondary);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--border-color);
+    border-top: 4px solid var(--accent-red);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

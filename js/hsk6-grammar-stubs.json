@@ -1,0 +1,672 @@
+[
+    {
+        "id": "hsk6_g1",
+        "csv_no": "359",
+        "group": "语素",
+        "category": "前缀",
+        "details": "类前缀：超-、多-、反-、无-、亚-、准-",
+        "content": "",
+        "lesson": 1,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g2",
+        "csv_no": "360",
+        "group": "语素",
+        "category": "后缀",
+        "details": "类后缀：-化、-式、-型、-性",
+        "content": "",
+        "lesson": 1,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g3",
+        "csv_no": "361",
+        "group": "词类",
+        "category": "代词",
+        "details": "指示代词",
+        "content": "本、此",
+        "lesson": 2,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g4",
+        "csv_no": "362",
+        "group": "词类",
+        "category": "量词",
+        "details": "名量词",
+        "content": "餐、串、滴、副、股、集、枝",
+        "lesson": 2,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g5",
+        "csv_no": "363",
+        "group": "词类",
+        "category": "量词",
+        "details": "动量词",
+        "content": "番、声、趟",
+        "lesson": 3,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g6",
+        "csv_no": "364",
+        "group": "词类",
+        "category": "副词",
+        "details": "程度副词",
+        "content": "特、异常",
+        "lesson": 3,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g7",
+        "csv_no": "365",
+        "group": "词类",
+        "category": "副词",
+        "details": "范围、协同副词",
+        "content": "尽、净、一齐、一同",
+        "lesson": 4,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g8",
+        "csv_no": "366",
+        "group": "词类",
+        "category": "副词",
+        "details": "时间副词",
+        "content": "时时、一时、早晚",
+        "lesson": 4,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g9",
+        "csv_no": "367",
+        "group": "词类",
+        "category": "副词",
+        "details": "关联副词",
+        "content": "便",
+        "lesson": 5,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g10",
+        "csv_no": "368",
+        "group": "词类",
+        "category": "副词",
+        "details": "方式副词",
+        "content": "不禁、赶忙、亲眼、特地、特意",
+        "lesson": 5,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g11",
+        "csv_no": "369",
+        "group": "词类",
+        "category": "副词",
+        "details": "情态副词",
+        "content": "仿佛",
+        "lesson": 6,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g12",
+        "csv_no": "370",
+        "group": "词类",
+        "category": "副词",
+        "details": "语气副词",
+        "content": "才3、刚好、偏、恰好",
+        "lesson": 6,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g13",
+        "csv_no": "371",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出时间、处所",
+        "content": "于",
+        "lesson": 7,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g14",
+        "csv_no": "372",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出方向、路径",
+        "content": "沿（着）",
+        "lesson": 7,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g15",
+        "csv_no": "373",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出对象",
+        "content": "同1、与1",
+        "lesson": 8,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g16",
+        "csv_no": "374",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出对象",
+        "content": "至于",
+        "lesson": 9,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g17",
+        "csv_no": "375",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出目的、原因",
+        "content": "因",
+        "lesson": 9,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g18",
+        "csv_no": "376",
+        "group": "词类",
+        "category": "介词",
+        "details": "表示排除",
+        "content": "除",
+        "lesson": 10,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g19",
+        "csv_no": "377",
+        "group": "词类",
+        "category": "介词",
+        "details": "引出凭借、依据",
+        "content": "据",
+        "lesson": 10,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g20",
+        "csv_no": "378",
+        "group": "词类",
+        "category": "连词",
+        "details": "连接词或词组",
+        "content": "而2、同2、与2",
+        "lesson": 11,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g21",
+        "csv_no": "379",
+        "group": "词类",
+        "category": "连词",
+        "details": "连接分句或句子",
+        "content": "不料、可3、若",
+        "lesson": 11,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g22",
+        "csv_no": "380",
+        "group": "词类",
+        "category": "助词",
+        "details": "结构助词",
+        "content": "所",
+        "lesson": 12,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g23",
+        "csv_no": "381",
+        "group": "词类",
+        "category": "助词",
+        "details": "语气助词",
+        "content": "罢了、啦、嘛",
+        "lesson": 12,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g24",
+        "csv_no": "382",
+        "group": "短语",
+        "category": "结构类型",
+        "details": "基本结构类型",
+        "content": "数词+形容词+量词",
+        "lesson": 13,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g25",
+        "csv_no": "383",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "四字格",
+        "content": "或A或B",
+        "lesson": 13,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g26",
+        "csv_no": "384",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "四字格",
+        "content": "无A无B",
+        "lesson": 14,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g27",
+        "csv_no": "385",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "四字格",
+        "content": "A这A那",
+        "lesson": 14,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g28",
+        "csv_no": "386",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "四字格",
+        "content": "左A右B",
+        "lesson": 15,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g29",
+        "csv_no": "387",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "不怎么",
+        "lesson": 16,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g30",
+        "csv_no": "388",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "不怎么样",
+        "lesson": 16,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g31",
+        "csv_no": "389",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "好（不）容易",
+        "lesson": 17,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g32",
+        "csv_no": "390",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "那倒（也）是",
+        "lesson": 17,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g33",
+        "csv_no": "391",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "就是说/这就是说",
+        "lesson": 18,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g34",
+        "csv_no": "392",
+        "group": "短语",
+        "category": "固定短语",
+        "details": "其他",
+        "content": "算了",
+        "lesson": 18,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g35",
+        "csv_no": "393",
+        "group": "固定格式",
+        "category": "A一+量词，B一+量词",
+        "details": "",
+        "content": "",
+        "lesson": 19,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g36",
+        "csv_no": "394",
+        "group": "固定格式",
+        "category": "东一A，西一A",
+        "details": "",
+        "content": "",
+        "lesson": 19,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g37",
+        "csv_no": "395",
+        "group": "固定格式",
+        "category": "为了……而……",
+        "details": "",
+        "content": "",
+        "lesson": 20,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g38",
+        "csv_no": "396",
+        "group": "句子成分",
+        "category": "宾语",
+        "details": "宾语的语义类型2： \n（1）处所宾语（2）结果宾语",
+        "content": "",
+        "lesson": 20,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g39",
+        "csv_no": "397",
+        "group": "句子成分",
+        "category": "补语",
+        "details": "趋向补语",
+        "content": "趋向补语5 \n表示状态意义（引申用法）：动词/形容词+下来/下去/起来/过来",
+        "lesson": 21,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g40",
+        "csv_no": "398",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "“把”字句",
+        "content": "“把”字句4：表致使 \n（1）主语（非生物体）+把+宾语+动词+其他成分 \n（2）主语+把+宾语（施事）+动词+其他成分",
+        "lesson": 21,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g41",
+        "csv_no": "399",
+        "group": "句子的类型",
+        "category": "特殊句型",
+        "details": "被动句",
+        "content": "被动句4：主语+被/叫/让+宾语+给+动词+其他成分",
+        "lesson": 22,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g42",
+        "csv_no": "400",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "时而……，时而……",
+        "lesson": 23,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g43",
+        "csv_no": "401",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "并列复句",
+        "content": "一时……一时……",
+        "lesson": 23,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g44",
+        "csv_no": "402",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "承接复句",
+        "content": "……便……",
+        "lesson": 24,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g45",
+        "csv_no": "403",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "递进复句",
+        "content": "不但不/不但没有……，反而……",
+        "lesson": 24,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g46",
+        "csv_no": "404",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "递进复句",
+        "content": "不是……，还/还是……",
+        "lesson": 25,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g47",
+        "csv_no": "405",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "递进复句",
+        "content": "连……都/也……，……更……",
+        "lesson": 25,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g48",
+        "csv_no": "406",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "选择复句",
+        "content": "要么……，要么……",
+        "lesson": 26,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g49",
+        "csv_no": "407",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "转折复句",
+        "content": "虽……，但/可/却/也……",
+        "lesson": 26,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g50",
+        "csv_no": "408",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "假设复句",
+        "content": "……，要不然/不然……",
+        "lesson": 27,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g51",
+        "csv_no": "409",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "条件复句",
+        "content": "凡是……，都……",
+        "lesson": 27,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g52",
+        "csv_no": "410",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "让步复句",
+        "content": "就算/就是……也……",
+        "lesson": 28,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g53",
+        "csv_no": "411",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "紧缩复句",
+        "content": "不……不……",
+        "lesson": 28,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g54",
+        "csv_no": "412",
+        "group": "句子的类型",
+        "category": "复句",
+        "details": "多重复句",
+        "content": "二重复句2：复句+复句",
+        "lesson": 29,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g55",
+        "csv_no": "413",
+        "group": "强调的方法",
+        "category": "用“非……不可”表示强调",
+        "details": "",
+        "content": "",
+        "lesson": 30,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g56",
+        "csv_no": "414",
+        "group": "口语格式",
+        "category": "X到Y头上来了",
+        "details": "",
+        "content": "",
+        "lesson": 30,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g57",
+        "csv_no": "415",
+        "group": "口语格式",
+        "category": "X就X吧",
+        "details": "",
+        "content": "",
+        "lesson": 31,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g58",
+        "csv_no": "416",
+        "group": "口语格式",
+        "category": "X是X",
+        "details": "",
+        "content": "",
+        "lesson": 31,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g59",
+        "csv_no": "417",
+        "group": "口语格式",
+        "category": "不X不……，一X……",
+        "details": "",
+        "content": "",
+        "lesson": 32,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g60",
+        "csv_no": "418",
+        "group": "口语格式",
+        "category": "好你个X",
+        "details": "",
+        "content": "",
+        "lesson": 32,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g61",
+        "csv_no": "419",
+        "group": "口语格式",
+        "category": "动词+什么（就）是什么",
+        "details": "",
+        "content": "",
+        "lesson": 33,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g62",
+        "csv_no": "420",
+        "group": "口语格式",
+        "category": "早（也）不X，晚（也）不X",
+        "details": "",
+        "content": "",
+        "lesson": 33,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g63",
+        "csv_no": "421",
+        "group": "口语格式",
+        "category": "看/瞧+把+宾语（施事）+ X 得",
+        "details": "",
+        "content": "",
+        "lesson": 34,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g64",
+        "csv_no": "422",
+        "group": "口语格式",
+        "category": "放着X不Y",
+        "details": "",
+        "content": "",
+        "lesson": 34,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g65",
+        "csv_no": "423",
+        "group": "口语格式",
+        "category": "X来X去，都是/就是 ……",
+        "details": "",
+        "content": "",
+        "lesson": 35,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g66",
+        "csv_no": "424",
+        "group": "口语格式",
+        "category": "X了就X了，（没）有……",
+        "details": "",
+        "content": "",
+        "lesson": 35,
+        "hsk": 6
+    },
+    {
+        "id": "hsk6_g67",
+        "csv_no": "425",
+        "group": "口语格式",
+        "category": "这/那也不X，那/这也不Y",
+        "details": "",
+        "content": "",
+        "lesson": 36,
+        "hsk": 6
+    }
+]
